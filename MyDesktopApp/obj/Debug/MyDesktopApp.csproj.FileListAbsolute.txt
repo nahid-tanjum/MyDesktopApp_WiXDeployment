@@ -1,0 +1,11 @@
+C:\Users\Nahid Tanjum\source\repos\MyDesktopApp\MyDesktopApp\bin\Debug\MyDesktopApp.exe.config
+C:\Users\Nahid Tanjum\source\repos\MyDesktopApp\MyDesktopApp\bin\Debug\MyDesktopApp.exe
+C:\Users\Nahid Tanjum\source\repos\MyDesktopApp\MyDesktopApp\bin\Debug\MyDesktopApp.pdb
+C:\Users\Nahid Tanjum\source\repos\MyDesktopApp\MyDesktopApp\obj\Debug\MyDesktopApp.Form1.resources
+C:\Users\Nahid Tanjum\source\repos\MyDesktopApp\MyDesktopApp\obj\Debug\MyDesktopApp.Properties.Resources.resources
+C:\Users\Nahid Tanjum\source\repos\MyDesktopApp\MyDesktopApp\obj\Debug\MyDesktopApp.csproj.GenerateResource.cache
+C:\Users\Nahid Tanjum\source\repos\MyDesktopApp\MyDesktopApp\obj\Debug\MyDesktopApp.csproj.CoreCompileInputs.cache
+C:\Users\Nahid Tanjum\source\repos\MyDesktopApp\MyDesktopApp\obj\Debug\MyDesktopApp.exe
+C:\Users\Nahid Tanjum\source\repos\MyDesktopApp\MyDesktopApp\obj\Debug\MyDesktopApp.pdb
+C:\Users\Nahid Tanjum\source\repos\MyDesktopApp\MyDesktopApp\obj\Debug\MyDesktopApp.csproj.AssemblyReference.cache
+C:\Users\Nahid Tanjum\source\repos\MyDesktopApp\MyDesktopApp\obj\Debug\MyDesktopApp.csproj.SuggestedBindingRedirects.cache

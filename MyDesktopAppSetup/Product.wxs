@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="MyDesktopAppSetup" Language="1033" Version="1.0.0.0" Manufacturer="Nahid Tanjum" UpgradeCode="11b318a8-f75c-4fd8-ac47-a884c9a8ba64">
+    <Package InstallerVersion="500" Compressed="yes" InstallScope="perMachine" />
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <MediaTemplate EmbedCab="yes"/>
+
+    <Feature Id="ProductFeature" Title="MyDesktopAppSetup" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+    </Feature>
+
+    
+    <CustomAction Id="ShowHelloWorldForm" FileKey="MyDesktopApp.exe" ExeCommand="" Execute="immediate" Return="check" />
+
+ 
+    <InstallExecuteSequence>
+      <Custom Action="ShowHelloWorldForm" After="InstallInitialize">NOT Installed</Custom>
+    </InstallExecuteSequence>
+
+  </Product>
+
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="MyDesktopApp" />
+      </Directory>
+    </Directory>
+  </Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <Component Id="MyDesktopApp.exe" Guid="{670339B2-009F-4522-B3F9-6B3C98ECA468}">
+        <File Id="MyDesktopApp.exe" Source="$(var.MyDesktopApp.TargetDir)MyDesktopApp.exe" KeyPath="yes" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

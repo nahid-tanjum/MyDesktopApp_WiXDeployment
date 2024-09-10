@@ -1,0 +1,6 @@
+C:\Users\Nahid Tanjum\source\repos\MyDesktopApp\MyDesktopAppSetup\bin\Debug\MyDesktopAppSetup.msi
+C:\Users\Nahid Tanjum\source\repos\MyDesktopApp\MyDesktopAppSetup\bin\Debug\MyDesktopAppSetup.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\MyDesktopAppSetup.wixproj.BindContentsFileListnull.txt
+obj\Debug\MyDesktopAppSetup.wixproj.BindOutputsFileListnull.txt
+obj\Debug\MyDesktopAppSetup.wixproj.BindBuiltOutputsFileListnull.txt
